@@ -1,8 +1,9 @@
-name: Run Central Validation
+name: Run Central Dependency Validation
 
 on:
   push:
-    branches: ["**"]
+    branches:
+      - '**'
   workflow_dispatch:
 
 jobs:
