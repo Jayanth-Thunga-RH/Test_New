@@ -1,0 +1,12 @@
+{
+    "name": "Test_Proj",
+    "projectId": "3f467f90-1071-4578-87cd-977f09712f1b",
+    "description": "Get Recalls from AMD, make csv on location basis and upload that file to corresponding location in Phreesia.\r\n\r\n",
+    "main": "Main.xaml",
+    "dependencies": {
+      "UiPath.Excel.Activities": "[2.20.1]",
+      "UiPath.System.Activities": "[23.4.2]",
+      "UiPath.Testing.Activities": "[24.10.3]",
+      "UiPath.UIAutomation.Activities": "[24.10.10]"
+    }
+  }
