@@ -1,13 +1,13 @@
 name: Run Validation
 
 on:
-  push:                # Run on any push to any branch (e.g., merges)
+  push:
     branches:
       - '**'
-  workflow_dispatch:   # Allow manual runs from GitHub UI
+  workflow_dispatch:
 
 jobs:
   call-central-validation:
-    uses: revivalhealthllc/validation-workflows/.github/workflows/validate.yml@main
+    uses: Jayanth-Thunga-RH/validation-workflows/.github/workflows/validate.yml@main
     with:
       branch: ${{ github.ref_name }}
